@@ -133,14 +133,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "grep"
-version = "0.1.0"
-dependencies = [
- "clap",
- "owo-colors",
-]
-
-[[package]]
 name = "heck"
 version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -186,6 +178,14 @@ name = "linux-raw-sys"
 version = "0.3.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ef53942eb7bf7ff43a617b3e2c1c4a5ecf5944a7c1bc12d7ee39bbb15e5c1519"
+
+[[package]]
+name = "mgrep"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "owo-colors",
+]
 
 [[package]]
 name = "once_cell"

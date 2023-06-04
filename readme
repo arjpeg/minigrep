@@ -9,5 +9,5 @@ It does not currently support regular expressions.
 ### Usage
 
 ```bash
-minigrep query filename
+mgrep query filename
 ```
