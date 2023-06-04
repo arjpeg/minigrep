@@ -25,7 +25,7 @@ fn search_file(query: String, file: &Path) -> Result<(), Error> {
 
             println!(
                 "{}:{}:  {}
-                    {}",
+             {}",
                 file.to_string_lossy().to_string().blue(),
                 (line_number + 1).to_string().yellow(),
                 line.trim_start(),
